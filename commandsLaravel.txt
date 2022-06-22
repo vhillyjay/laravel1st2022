@@ -1,0 +1,4 @@
+composer global require laravel/installer
+cd documents
+laravel new {project name}
+php artisan serve

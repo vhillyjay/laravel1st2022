@@ -17,8 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/booksAndSupplies', function () {
-    return view('booksAndSupplies');
+Route::get('/supplies', function () {
+    $schoolSupplies = [
+        'type' => 'pencil',
+        'brand' => 'Mongol',
+        'price' => 10
+    ]; // variable to be passed on view
+    return view('supplies', $schoolSupplies); // variable from above
     // return "booksAndSupplies"; // text/html
     // return ["name" => "theChronicle", "type" => "books"]; // application/json
 });
