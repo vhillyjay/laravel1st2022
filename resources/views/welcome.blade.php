@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Axie Infinity Marketplace by Arky</title>
+        <title>CVS Bookstore and Supplies</title>
+        <!-- title bar -->
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -48,7 +49,7 @@
 
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                     <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
-                        <img src="pic_trulli.jpg" alt="Axie Infinity Logo">
+                        <img src="pic_trulli.jpg" alt="CVS Bookstore and Supplies Logo">
                     </svg>
                 </div>
 

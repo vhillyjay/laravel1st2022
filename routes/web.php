@@ -17,6 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/axies', function () {
-    return view('axies');
+Route::get('/booksAndSupplies', function () {
+    return view('booksAndSupplies');
+    // return "booksAndSupplies"; // text/html
+    // return ["name" => "theChronicle", "type" => "books"]; // application/json
 });
+// routes shown on url
