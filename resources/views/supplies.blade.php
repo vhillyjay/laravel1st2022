@@ -25,6 +25,32 @@
             School Supplies
             <p>{{ $type }} - {{ $brand }} - {{ $price }} </p>
             <!-- variables from web.php -->
+            
+            <!-- @if($price > 15)
+                <p>this pencil is overpriced</p>
+            @elseif($price < 5)
+                <p>this pencil is cheap</p>
+            @else
+                <p>this pencil is normally priced</p>
+            @endif
+
+            @unless($brand == 'Mongol')
+                <p>no mongol brand</p>
+            @endunless -->
+            <!-- if else & unless statement -->
+
+            <!-- @php
+                $name = 'vh';
+                echo $name;
+            @endphp -->
+            <!-- php syntax -->
+
+            @for($i = 0; $i < 5; $i++)
+                <p>the value of i is {{ $i }} </p>
+            @endfor
+
+            
+
         </div>
     </body>
 </html>
