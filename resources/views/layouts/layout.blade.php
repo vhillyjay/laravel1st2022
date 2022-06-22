@@ -21,6 +21,6 @@
         </style>
     </head>
     <body class="antialiased">
-        @yield('content')
+        @yield('content') <!-- content from welcome2.blade.php -->
     </body>
 </html>
