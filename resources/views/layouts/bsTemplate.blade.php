@@ -24,6 +24,7 @@
 
 <body id="page-top">
     <!-- @yield('content') -->
+    <!-- from welcome2.blade.php -->
 
     <!-- Page Wrapper -->
     <div id="wrapper">

@@ -49,7 +49,7 @@
                 <p>the value of i is {{ $i }} </p>
             @endfor
 
-            
+            {{ $type }} - {{ $brand }} - {{ $price }}
 
         </div>
     </body>
