@@ -17,13 +17,18 @@ Route::get('/', function () {
     return view('welcome2');
 });
 
-Route::get('/supplies', function () {
+Route::get('/supplies', function () { // /supplies is the url
     $schoolSupplies = [
         'type' => 'pencil',
         'brand' => 'HBW',
         'price' => 10
     ]; // variable to be passed on view
-    return view('supplies', $schoolSupplies); // page on views, variable from above
+    // return view('supplies', $schoolSupplies); // page on views, variable from above/ working
+    return view('supplies', [ //supplies is from views
+        'type' => request('type'),
+        'brand' => request('brand'),
+        'price' => request('price') // request('') will get the value of query parameter(url)
+    ]);
     // return "booksAndSupplies"; // text/html
     // return ["name" => "theChronicle", "type" => "books"]; // application/json
 });
