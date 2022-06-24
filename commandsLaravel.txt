@@ -4,3 +4,8 @@ laravel new {project name}
 php artisan serve
 
 php artisan make:controller NameController
+mysql -u root
+create database dbname;
+    check .env file to change database connection
+    path on windows env
+    xampp apache and mysql
