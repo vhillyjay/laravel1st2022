@@ -2,3 +2,5 @@ composer global require laravel/installer
 cd documents
 laravel new {project name}
 php artisan serve
+
+php artisan make:controller NameController

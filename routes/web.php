@@ -43,7 +43,6 @@ Route::get('/supplies', function () { // /supplies is the url
 //     return view('supplies', ['supplies' => $supplies]); // supplies from views folder
 // });
 
-Route::get('/supplies/{id}', function ($id) {
-    // use the $id variable to query the db for a record
-    return view('details', ['id' => $id]); // 'id' can be called whatever you want
-});
+Route::get('/supplies/{id}', [App\Http\Controllers\SuppliesController::class, 'show']); 
+    // have to use the complete path from SuppliesController.php
+    // there could also be others ways to do it i think
