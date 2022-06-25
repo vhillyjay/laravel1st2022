@@ -9,3 +9,6 @@ create database dbname;
     check .env file to change database connection
     path on windows env
     xampp apache and mysql
+
+php artisan make:migration create_name_table
+php artisan migrate
